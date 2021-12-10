@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="yoga_is">Yoga is the art work of awareness on the canvas of body, mind, and soul.</string>
+    <string name="get_start">Get Started</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Don\'t have an account, <b>Sign up</b> now.</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="or"><b>Or</b></string>
+</resources>

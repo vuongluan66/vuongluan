@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_yoga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_ellipsis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:scaleX="1"
+        android:background="@drawable/yoga"
+        android:scaleY="1" />
+
+    <LinearLayout
+        android:id="@+id/ll_ellipsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_ellipse" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_ellipse" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/ic_ellipse" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_yoga_is"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_ellipsis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="@string/yoga_is"
+        android:textAppearance="@style/yoga_is" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_get_start"
+        android:layout_width="178dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/tv_yoga_is"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/get_start"
+        android:fontFamily="@font/roboto"
+        android:text="@string/get_start"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>
